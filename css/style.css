@@ -6,6 +6,7 @@ body {
   font-family: Arial, sans-serif;
   max-width: 1310px;
   margin: auto;
+  background-color: #f4f5f6;
 }
 
 h1,
@@ -31,12 +32,16 @@ h6 {
 
 /* Utility classes */
 .bg-newsweek {
-  background-color: var(--newsweek-red)
+  background-color: var(--newsweek-red);
 }
 
 /* Font classes */
 .font-roboto {
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fs-9 {
+  font-size: 9px;
 }
 
 .fs-14 {
@@ -66,7 +71,7 @@ h6 {
 .form-inline::after {
   position: absolute;
   right: 0;
-  font-family: 'Genericons';
+  font-family: 'Genericons', monospace;
   font-size: 25px;
   content: "\f400";
 }
@@ -74,6 +79,18 @@ h6 {
 #search-box {
   width: 100px;
 }
+
 #search-box:focus {
-  box-shadow:none;
+  box-shadow: none;
+}
+
+.block-title {
+  color: rgba(3, 3, 3, 0.4);
+  font-weight: 700;
+}
+
+.media img {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
 }

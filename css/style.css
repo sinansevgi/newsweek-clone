@@ -1,0 +1,52 @@
+:root {
+  --newsweek-red: #f72210;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 1310px;
+  margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+}
+
+.navbar-brand svg {
+  width: 132px;
+  fill: #fff;
+}
+
+@media (min-width: 992px) {
+  .navbar-brand svg {
+    width: 396px;
+  }
+}
+
+/* Utility classes */
+.bg-newsweek {
+  background-color: var(--newsweek-red)
+}
+
+/* Font classes */
+.font-roboto {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}

@@ -47,6 +47,33 @@ h6 {
   font-size: 15px;
 }
 
+.fs-16 {
+  font-size: 16px;
+}
+
 .fs-18 {
   font-size: 18px;
+}
+
+.nav-link {
+  color: #000;
+  font-weight: 700;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-left: 0.825vw;
+  padding-right: 0.825vw;
+}
+
+.form-inline::after {
+  position: absolute;
+  right: 0;
+  font-family: 'Genericons';
+  font-size: 25px;
+  content: "\f400";
+}
+
+#search-box {
+  width: 100px;
+}
+#search-box:focus {
+  box-shadow:none;
 }

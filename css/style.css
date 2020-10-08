@@ -56,8 +56,16 @@ h6 {
   font-size: 16px;
 }
 
+.fs-17 {
+  font-size: 17px;
+}
+
 .fs-18 {
   font-size: 18px;
+}
+
+.border-thick {
+  border-width: 4px !important;
 }
 
 .nav-link {
@@ -89,8 +97,23 @@ h6 {
   font-weight: 700;
 }
 
-.media img {
+.image-96 {
   width: 96px;
   height: 96px;
   object-fit: cover;
+}
+
+.image-63 {
+  width: 63px;
+  height: 63px;
+  object-fit: cover;
+}
+
+.versus-divider {
+  width: 30px;
+  height: 30px;
+}
+
+#newsletter-card {
+  max-width: 300px;
 }

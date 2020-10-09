@@ -202,12 +202,12 @@ h6 {
   top: 20px;
 }
 
-.footer-menu a{
+.footer-menu a {
   font-weight: 400;
   font-family: Arial, sans-serif;
 }
 
-.footer-branding svg{
-  width:236px;
+.footer-branding svg {
+  width: 236px;
   fill: var(--newsweek-red);
 }

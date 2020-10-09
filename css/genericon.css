@@ -1,15 +1,16 @@
 @font-face {
   font-family: 'Genericons';
   font-display: swap;
-  src: local('Genericons'),
+  src:
+    local('Genericons'),
     url(https://g.newsweek.com/www/fonts/Genericons.eot);
-  font-display: swap;
-  src: url(https://g.newsweek.com/www/fonts/Genericons.eot?#iefix) format("embedded-opentype"),
+  src:
+    url(https://g.newsweek.com/www/fonts/Genericons.eot?#iefix) format("embedded-opentype"),
     url(https://g.newsweek.com/www/fonts/Genericons.woff) format("woff"),
     url(https://g.newsweek.com/www/fonts/Genericons.ttf) format("truetype"),
     url(https://g.newsweek.com/www/fonts/Genericons.svg#Genericons) format("svg");
   font-weight: normal;
-  font-style: normal
+  font-style: normal;
 }
 
 .genericon {
@@ -17,47 +18,47 @@
   vertical-align: middle;
   text-align: center;
   display: inline;
-  font-family: "Genericons";
+  font-family: "Genericons", sans-serif;
   cursor: pointer;
 }
 
-.genericon-facebook-alt:before {
+.genericon-facebook-alt::before {
   content: "\f204";
 }
 
-.genericon-twitter:before {
+.genericon-twitter::before {
   content: "\f202";
 }
 
-.genericon-tumblr:before {
+.genericon-tumblr::before {
   content: "\f214";
 }
 
-.genericon-linkedin:before {
+.genericon-linkedin::before {
   content: "\f207";
 }
 
-.genericon-pinterest:before {
+.genericon-pinterest::before {
   content: "\f209";
 }
 
-.genericon-reddit:before {
+.genericon-reddit::before {
   content: "\f222";
 }
 
-.genericon-mail:before {
+.genericon-mail::before {
   content: "\f410";
 }
 
-.genericon-comment:before {
+.genericon-comment::before {
   content: "\f300";
 }
 
-.genericon-facebook:before {
+.genericon-facebook::before {
   content: "\f203";
 }
 
-.genericon-instagram:before {
+.genericon-instagram::before {
   content: "\f215";
 }
 
@@ -67,7 +68,7 @@
 
 .genericon-menu::before {
   content: "\f419";
-  color: rgba(255, 255, 255, .55);
+  color: rgba(255, 255, 255, 0.55);
 }
 
 .genericon-weather::before {

@@ -61,7 +61,7 @@ h6 {
 .hover-red:hover,
 .hover-red:active,
 .hover-red:focus {
-  color: var(--newsweek-red) ;
+  color: var(--newsweek-red);
 }
 
 .hover-underline:hover {

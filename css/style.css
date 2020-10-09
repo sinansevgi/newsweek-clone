@@ -3,6 +3,7 @@
 }
 
 body {
+  overflow-x: hidden;
   font-family: Arial, sans-serif;
   max-width: 1310px;
   margin: auto;
@@ -50,17 +51,17 @@ h6 {
 }
 
 .text-dark {
-  color: #000 !important;
+  color: #000;
 }
 
 .text-blunt {
-  color: #494f54 !important;
+  color: #494f54;
 }
 
 .hover-red:hover,
 .hover-red:active,
 .hover-red:focus {
-  color: var(--newsweek-red) !important;
+  color: var(--newsweek-red) ;
 }
 
 .hover-underline:hover {
@@ -113,7 +114,7 @@ h6 {
 }
 
 .border-thick {
-  border-width: 4px !important;
+  border-width: 4px;
 }
 
 .nav-link {

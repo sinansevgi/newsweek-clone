@@ -10,6 +10,11 @@ body {
   line-height: 1.1;
 }
 
+a:hover,
+a:visited {
+  color: inherit;
+}
+
 h1,
 h2,
 h3,
@@ -36,8 +41,30 @@ h6 {
   background-color: var(--newsweek-red);
 }
 
+.object-fit-cover {
+  object-fit: cover;
+}
+
 .text-red {
   color: var(--newsweek-red);
+}
+
+.text-dark {
+  color: #000 !important;
+}
+
+.text-blunt {
+  color: #494f54 !important;
+}
+
+.hover-red:hover,
+.hover-red:active,
+.hover-red:focus {
+  color: var(--newsweek-red) !important;
+}
+
+.hover-underline:hover {
+  text-decoration-color: var(--newsweek-red);
 }
 
 /* Font classes */
@@ -97,7 +124,7 @@ h6 {
   padding-right: 0.825vw;
 }
 
-.form-inline::after {
+.search-form::after {
   position: absolute;
   right: 0;
   font-family: 'Genericons', monospace;
@@ -149,7 +176,7 @@ h6 {
   height: 30px;
 }
 
-#newsletter-card {
+#article-newsletter {
   max-width: 300px;
 }
 
@@ -167,4 +194,24 @@ h6 {
   left: 0;
   background: #e6e6e6;
   color: var(--newsweek-red);
+}
+
+#magazine-covers {
+  /* min-height: 300px; */
+  /* background-image:
+    url("https://d.newsweek.com/en/full/1643943/cover-october-09-16-2020.jpg?w=170&q=95&f=f8144d83a028a40fe7ea6a5ed615ded7"),
+    url("https://d.newsweek.com/en/full/1641530/cover-october-02-2020.jpg?w=170&q=95&f=7dedf2b19f9910e285fdbdff096ed6a3");
+  background-repeat: no-repeat;
+  background-position: 120px 20px, top left;
+  background-size: auto; */
+}
+
+#magazine-covers img {
+  /* position: absolute; */
+}
+
+#magazine-covers img:last-of-type {
+  position: absolute;
+  left: 90px;
+  top: 20px;
 }
